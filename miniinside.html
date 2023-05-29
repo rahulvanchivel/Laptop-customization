@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Build</title>
+	<link rel="stylesheet" href="miniinside.css">
+    <h1>Customize Laptop</h1>
+</head>
+<body>
+	<div class="wrapper">
+			<nav class="navbar">
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="miniabout.html">About</a></li>
+					<li><a href="minicontact.html">Contact</a></li>
+					<li><a href="miniprofile.html">Profile</a></li>
+					<li><a href="miniprojectlogin.html">Logout</a></li>
+				</ul>
+			</nav>
+			<main>
+				<form class="inside"method="post" action="inside.php">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<p>Select Operating System:</p>
+					<br>
+					<input type="radio" id="windows" name="os" value="windows">
+					<label for="Windows">Windows</label><br>
+					<input type="radio" id="linux" name="os" value="linux">
+					  <label for="Linux">Linux</label><br>
+					<br>
+						<p>Select type of processor:</p>
+						<br>
+						<label>
+						  <input type="radio" name="processor" value="intel" checked>
+						  Intel
+						</label>
+						<br>
+						<label>
+						  <input type="radio" name="processor" value="amd">
+						  AMD Ryzen
+						</label>
+					<br>
+					<br>
+					<label for="processor">Processor:</label>
+					<select id="processor" name="selectedProcessor">
+						<option value="i310">Intel Core i3-10100</option>
+						<option value="i510">Intel Core i5-10400</option>
+						<option value="i710">Intel Core i7-10700</option>
+						<option value="i910">Intel Core i9-10900</option>
+						<option value="i311">Intel Core i3-11100</option>
+						<option value="i511">Intel Core i5-11400</option>
+						<option value="i711">Intel Core i7-11700</option>
+						<option value="i911">Intel Core i9-11900</option>
+						<option value="i312">Intel Core i3-12100</option>
+						<option value="i512">Intel Core i5-12400</option>
+						<option value="i712">Intel Core i7-12700</option>
+						<option value="i912">Intel Core i9-12900</option>
+						<option value="i313">Intel Core i3-13100</option>
+						<option value="i513">Intel Core i5-13400</option>
+						<option value="i713">Intel Core i7-13700</option>
+						<option value="i913">Intel Core i9-13900</option>
+						<option value="r75g">Ryzen 7 5700G</option>
+						<option value="r75x">Ryzen 7 5800X</option>
+						<option value="r75hs">Ryzen 7 5800HS</option>
+						<option value="r7h">Ryzen 7 5800H</option>
+						<option value="r7hx">Ryzen 7 5900HX</option>
+						<option value="r75h">Ryzen 7 5900H</option>
+						<option value="r75x">Ryzen 7 5950X</option>
+						<option value="r95x">Ryzen 9 5900X</option>
+						<option value="r950x">Ryzen 9 5950X</option>
+						<option value="r95hx">Ryzen 9 5900HX</option>
+						<option value="r95h">Ryzen 9 5900H</option>
+						<option value="r95hs">Ryzen 9 5980HS</option>
+						<option value="r950hx">Ryzen 9 5980HX</option>
+						<option value="r96xt">Ryzen 9 6900XT</option>
+						
+					</select>
+					<br>
+					<br>
+					<br>
+		
+					<label for="graphics-card">Graphics Card:</label>
+					<select id="graphics-card" name="graphics-card">
+						<option value="gr38">GeForce RTX 3080</option>
+						<option value="gr37">GeForce RTX 3070</option>
+						<option value="gr36">GeForce RTX 3060</option>
+						<option value="gr35">GeForce RTX 3050</option>
+						<option value="gr35ti">GeForce RTX 3050 Ti</option>
+						<option value="gr37ti">GeForce RTX 3070 Ti</option>
+						<option value="gr38ti">GeForce RTX 3080 Ti</option>
+						<option value="arr68s">AMD Radeon RX 6800S</option>
+						<option value="arr67s">AMD Radeon RX 6700S</option>
+						<option value="irxg">Intel Iris X Graphics</option>
+					</select>
+					<br>
+					<br>
+					<br>
+					<label for="ram">RAM:</label>
+					<select id="ram" name="ram">
+						<option value="4gb">4GB</option>
+						<option value="8gb">8GB</option>
+						<option value="16gb">16GB</option>
+						<option value="32gb">32GB</option>
+					</select>
+					<br>
+					<br>
+					<br>
+		
+					<label for="storage">Storage:</label>
+					<select id="storage" name="storage">
+						<option value="512gb-ssd">512GB SSD</option>
+						<option value="1tb-ssd">1TB SSD</option>
+						<option value="2tb-ssd">2TB SSD</option>
+						<option value="4tb-ssd">4TB SSD</option>
+					</select>
+					<br>
+					<br>
+					<br>
+					<label for="colour">Colour:</label>
+					<select id="colour" name="colour">
+						<option value="white">White</option>
+						<option value="black">Black</option>
+						<option value="blue">Blue</option>
+						<option value="silver">Silver</option>
+						<option value="yellow">Yellow</option>
+						<option value="pink">Pink</option>
+						<option value="violet">Violet</option>
+						<option value="green">Green</option>
+						<option value="gold">Gold</option>
+						<option value="red">Red</option>
+						<option value="gray">Gray</option>
+						<option value="orange">Orange</option>
+						<option value="brown">Brown</option>
+					</select>
+					<br>
+					<br>
+					<br>
+					<label for="displaysize">Display Size:</label>
+					<select id="ds" name="ds">
+						<option value="13">13"</option>
+						<option value="14">14"</option>
+						<option value="16">16"</option>
+						<option value="17.3">17.3"</option>
+						<option value="18">18"</option>
+					</select>
+					<br>
+					<br>
+					<br>
+					<label for="displaytype">Display Type:</label>
+					<select id="dt" name="dt">
+						<option value="60hz">60Hz</option>
+						<option value="120hz">120Hz</option>
+						<option value="144hz">144Hz</option>
+						<option value="165hz">165Hz</option>
+						<option value="240hz">240Hz</option>
+						<option value="300hz">300Hz</option>
+						<option value="360hz">360Hz</option>
+						<option value="WQHD">WQHD</option>
+						<option value="FHD+">FHD+(WUXGA)</option>
+						<option value="UHD+">UHD+ (WQUXGA)</option>
+						<option value="UHD+/">UHD+ (WQUXGA) / FHD+ (WUXGA)</option>
+					</select>
+					<br>
+					<br>
+					<br>
+					<label for="Battery">Battery:</label>
+					<select id="ds" name="battery">
+						<option value="48wh">48Wh</option>
+						<option value="60wh">60Wh</option>
+						<option value="66wh">66Wh</option>
+						<option value="76wh">76Wh</option>
+						<option value="90wh">90Wh</option>
+					</select>
+					<br>
+					<br>
+					<br>
+					<label for="Networking">Wifi:</label>
+					<select id="Networking" name="wifi">
+						<option value="wifi5">Wifi 5</option>
+						<option value="wifi6">Wifi 6</option>
+					</select>
+					<br>
+					<br>
+					<div class="buttons">
+						<button name="calc">Calculate</a></button>
+						<br>
+						<br>
+						<p>Share order with Laptop Builder:</p>
+						<br>
+						<button><a href="minipc.html">Share Order</a></button>
+				</div>
+				</form>
+			</main>
+
+</body>
+</html>
